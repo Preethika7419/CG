@@ -1,0 +1,17 @@
+/*
+ABSTRACT 
+The abstract keyword is a non-access modifier, used for classes and methods.
+
+Class: An abstract class is a restricted class that cannot be used to
+ create objects (to access it, it must be inherited from another class).
+
+Method: An abstract method can only be used in an abstract class, and it does not have a body. 
+The body is provided by the subclass (inherited from).
+*/
+
+FINAL
+The final keyword is a non-access modifier used for classes, attributes and methods, which makes them non-changeable (impossible to inherit or override).
+If you make any method as final, you cannot override it.
+The final keyword is useful when you want a variable to always store the same value, like PI (3.14159...).
+
+The final keyword is called a "modifier". 
